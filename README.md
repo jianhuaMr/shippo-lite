@@ -4,9 +4,11 @@
 
 [![CI](https://github.com/jianhuaMr/shippo-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/jianhuaMr/shippo-lite/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/shippo-lite.svg)](https://www.npmjs.com/package/shippo-lite)
+[![npm downloads](https://img.shields.io/npm/dm/shippo-lite.svg)](https://www.npmjs.com/package/shippo-lite)
 [![bundle size](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#why)
 [![types](https://img.shields.io/badge/types-included-blue.svg)](#)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 The official `shippo` SDK is great, but it pulls in a lot if all you want is to
 **quote a rate, buy a label, and track a package**. `shippo-lite` does exactly
@@ -115,6 +117,17 @@ npm run typecheck
 npm test          # vitest, fully mocked — no network, no token needed
 npm run build
 ```
+
+## Roadmap
+
+- [ ] Publish to npm
+- [ ] Address validation helper (`validateAddress`)
+- [ ] Optional retry with backoff on `429` / `5xx`
+- [ ] Batch label creation
+- [ ] Webhook signature verification helper
+
+See the [open issues](https://github.com/jianhuaMr/shippo-lite/issues) to follow
+along or pitch in.
 
 ## Contributing
 
