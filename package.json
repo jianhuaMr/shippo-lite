@@ -1,0 +1,59 @@
+{
+  "name": "shippo-lite",
+  "version": "0.1.0",
+  "description": "Tiny, zero-dependency, fully-typed Shippo REST client for Node & edge runtimes. Rates, labels, and tracking in three calls.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "shippo",
+    "shipping",
+    "shipping-rates",
+    "shipping-label",
+    "tracking",
+    "carrier",
+    "usps",
+    "ups",
+    "fedex",
+    "ecommerce",
+    "logistics",
+    "typescript",
+    "zero-dependency"
+  ],
+  "author": "Jianhua Yang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/__GH_USER__/shippo-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/__GH_USER__/shippo-lite/issues"
+  },
+  "homepage": "https://github.com/__GH_USER__/shippo-lite#readme",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
