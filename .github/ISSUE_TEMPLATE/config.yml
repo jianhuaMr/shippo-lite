@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Shippo API documentation
+    url: https://docs.goshippo.com/shippoapi/public-api/
+    about: Questions about the Shippo API itself are best answered in their docs.

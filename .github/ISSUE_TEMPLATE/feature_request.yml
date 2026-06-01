@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an addition or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: I want to validate an address before quoting rates…
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API
+      description: Sketch the method signature or usage you have in mind.
+      render: ts
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This keeps shippo-lite zero-dependency
+        - label: This fits the "common path" scope (rates / labels / tracking)
