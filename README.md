@@ -2,7 +2,7 @@
 
 > Tiny, zero-dependency, fully-typed [Shippo](https://goshippo.com) client for Node & edge runtimes. Rates, labels, and tracking in three calls.
 
-[![CI](https://github.com/__GH_USER__/shippo-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/__GH_USER__/shippo-lite/actions/workflows/ci.yml)
+[![CI](https://github.com/jianhuaMr/shippo-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/jianhuaMr/shippo-lite/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/shippo-lite.svg)](https://www.npmjs.com/package/shippo-lite)
 [![bundle size](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#why)
 [![types](https://img.shields.io/badge/types-included-blue.svg)](#)

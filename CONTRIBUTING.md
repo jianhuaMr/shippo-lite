@@ -6,7 +6,7 @@ Thanks for your interest in improving shippo-lite! This project aims to stay
 ## Getting started
 
 ```bash
-git clone https://github.com/__GH_USER__/shippo-lite.git
+git clone https://github.com/jianhuaMr/shippo-lite.git
 cd shippo-lite
 npm install
 npm test

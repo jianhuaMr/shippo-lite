@@ -46,12 +46,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/__GH_USER__/shippo-lite.git"
+    "url": "git+https://github.com/jianhuaMr/shippo-lite.git"
   },
   "bugs": {
-    "url": "https://github.com/__GH_USER__/shippo-lite/issues"
+    "url": "https://github.com/jianhuaMr/shippo-lite/issues"
   },
-  "homepage": "https://github.com/__GH_USER__/shippo-lite#readme",
+  "homepage": "https://github.com/jianhuaMr/shippo-lite#readme",
   "devDependencies": {
     "typescript": "^5.4.0",
     "vitest": "^1.6.0"

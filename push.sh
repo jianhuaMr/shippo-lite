@@ -19,8 +19,8 @@ USER_LOGIN=$(curl -fsSL -H "$AUTH" "$API/user" | python3 -c "import sys,json;pri
 echo "Authenticated as: $USER_LOGIN"
 
 # 2. Personalize repo URLs in the source with the real username.
-grep -rl "__GH_USER__" . --exclude-dir=node_modules --exclude-dir=.git 2>/dev/null \
-  | xargs -r sed -i "s/__GH_USER__/${USER_LOGIN}/g"
+grep -rl "jianhuaMr" . --exclude-dir=node_modules --exclude-dir=.git 2>/dev/null \
+  | xargs -r sed -i "s/jianhuaMr/${USER_LOGIN}/g"
 if ! git diff --quiet; then
   git add -A
   git commit -q -m "chore: set repository URLs to ${USER_LOGIN}"
